@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.slider {
+    position: relative;
+    height: 100%;
+}
+
+.slide {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.image {
+    top: 0;
+    width: 80%;
+}
