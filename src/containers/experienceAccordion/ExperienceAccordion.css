@@ -6,6 +6,10 @@
   font-family: "Google Sans Regular";
 }
 
+.expCard {
+    padding-top: 10px;
+}
+
 @media (max-width: 768px) {
   .experience-accord {
     margin: 20px;

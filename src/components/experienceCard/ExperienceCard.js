@@ -40,9 +40,9 @@ class ExperienceCard extends Component {
     return (
       <div
         className="experience-card"
-        style={{ border: `1px solid ${experience["color"]}` }}
+        style={{ backgroundColor: theme.body, border: `1px solid ${experience["color"]}` }}
       >
-        <div className="experience-card-logo-div">
+        <div className="experience-card-logo-div" style={{backgroundColor: theme.compImgHighlight}}>
           <GetSvg logo={experience.logo_path} />
         </div>
         <div className="experience-card-body-div">
@@ -62,6 +62,7 @@ class ExperienceCard extends Component {
                   href={experience["company_url"]}
                   target="_blank"
                   rel="noopener noreferrer"
+                  style={{ color: theme.jHighlight }}
                 >
                   {experience["company"]}
                 </a>

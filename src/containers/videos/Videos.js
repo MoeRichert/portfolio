@@ -9,15 +9,13 @@ class Videos extends Component {
     return (
       <div className="main" id="videos">
                 <div className="videoProjects">
-                    <Fade bottom duration={2000} distance="40px">
                         <Collapsible title="Example Videos"  >
-                            <div className="educations-body-div">
+                            <div className="video-cards-div-main">
                                 {videos.data.map((video) => {
                                     return <VideoCard video={video} />;
                                 })}
                             </div>
                         </Collapsible>
-                    </Fade>
                 </div>
       </div>
     );

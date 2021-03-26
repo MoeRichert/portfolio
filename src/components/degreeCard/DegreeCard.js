@@ -17,7 +17,7 @@ class DegreeCard extends Component {
     return (
       <div key={degree.logo_path} className="degree-card">
         <Flip left duration={2000}>
-          <div className="card-img">
+          <div className="card-img" style={{backgroundColor: theme.compImgHighlight}}>
             <GetSvg logo={degree.logo_path}/>
           </div>
         </Flip>

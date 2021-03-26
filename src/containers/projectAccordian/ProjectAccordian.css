@@ -4,6 +4,12 @@
 
 .accord-panel {
   font-family: "Google Sans Regular";
+  font-size: inherit;
+}
+
+.repo-cards-div-main {
+    border: 0px;
+    margin-bottom: 40px;
 }
 
 @media (max-width: 768px) {

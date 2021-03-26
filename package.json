@@ -1,6 +1,6 @@
 {
   "name": "mrp-port",
-  "homepage": "moerichert.github.io/portfolio",
+  "homepage": "https://moerichert.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

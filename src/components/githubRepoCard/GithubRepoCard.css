@@ -69,6 +69,7 @@
 .repo-description {
   overflow: hidden;
   text-align: left;
+  font-size: 16px;
   display: -webkit-box;
   font-family: "Google Sans Regular";
   -webkit-line-clamp: 2;
@@ -84,6 +85,7 @@
 .repo-creation-date {
   margin: 0;
   font-family: "Google Sans Regular";
+  font-size: 14px;
   font-weight: 400;
   margin-left: 0px;
   margin-right: auto;
@@ -108,6 +110,6 @@
   }
 
   .repo-creation-date {
-    font-size: 14px;
+    font-size: 12px;
   }
 }

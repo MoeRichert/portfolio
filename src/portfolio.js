@@ -1,4 +1,4 @@
-/* Change this file to get your personal Porfolio */
+/* Change this file to get your personal Portfolio */
 
 // Website related settings
 const settings = {
@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Moe Richert's Portfolio",
     type: "website",
-    url: "moerichert.github.io/",
+    url: "https://moerichert.github.io/portfolio",
   },
 };
 
@@ -24,8 +24,8 @@ const greeting = {
   subTitle:
     "Developer - Cartographer - Ecologist - Educator - Storyteller",
   resumeLink:
-    "",
-  portfolio_repository: "",
+    "https://moerichert.github.io/",
+  portfolio_repository: "https://moerichert.github.io/portfolio",
 };
 
 const aboutme = {
@@ -64,7 +64,7 @@ const skills = {
       title: "Website Development",
       fileName: "MoeDevImg",
       skills: [
-        "⚈ Building resposive websites using React or HTML and jQuery",
+        "⚈ Building responsive websites using React or HTML and jQuery",
         "⚈ Mobile-first development",
         "⚈ Creating application backend in Java or Ruby",
         "⚈ Database structure and management",
@@ -197,7 +197,7 @@ const skills = {
       title: "Design",
       fileName: "DesignImg",
       skills: [
-        "⚈ Designing attractive and intuative user interfaces for mobile and web applications",
+        "⚈ Designing attractive and intuitive user interfaces for mobile and web applications",
         "⚈ Designing logos and graphics from scratch",
         "⚈ Illustration",
         "⚈ Video editing and compilation",
@@ -295,7 +295,7 @@ const skills = {
       title: "Improv Storytelling and Game Design",
       fileName: "RatImg",
       skills: [
-        "⚈ Devloping and adjusting storytelling games for a variety of audiences",
+        "⚈ Developing and adjusting storytelling games for a variety of audiences",
         "⚈ Leading virtual and in-person games",
         "⚈ Taking existing games and modifying them to make them educational experiences",
         "⚈ Developing new games to suit organization goals",
@@ -346,7 +346,7 @@ const degrees = {
       duration: "2019 - 2021",
       descriptions: [
         "⚈ This degree focused on development, mobile app creation, and web map scripting.",
-        "⚈ I studied and applied grapgic design concepts to web and mobile programming",
+        "⚈ I studied and applied graphic design concepts to web and mobile programming",
         "⚈ I also studied spatial database development and spatial analysis",
         
       ],
@@ -377,14 +377,17 @@ const videos = {
         {
             title: "Project Pitch - Where Does the Water Go?",
             link: "https://www.youtube.com/embed/JEYg3wGnBoQ",
+            Id: "JEYg3wGnBoQ",
         },
         {
             title: "BREC - Where Does the Water Go?",
             link: "https://www.youtube.com/embed/urQG5jvuXxc",
+            Id: "urQG5jvuXxc",
         },
         {
             title: "BREC - What is a Watershed?",
             link: "https://www.youtube.com/embed/-CD2S5T7oHY",
+            Id: "-CD2S5T7oHY",
         },
     ]
 };
@@ -400,6 +403,7 @@ const experience = {
   sections: [
     {
       title: "Work",
+      id: "0",
       experiences: [
         {
           title: "Conservation Specialist",
@@ -459,7 +463,7 @@ const experience = {
           {
           title: "Wildlife Biologist",
           company: "Trutech",
-          company_url: "",
+          company_url: "https://www.trutechinc.com/",
           logo_path: "tt",
           duration: "April 2016 – August 2016",
           location: "New Orleans, LA",
@@ -503,7 +507,7 @@ const experience = {
           {
           title: "Music Teacher",
           company: "Self-Employed",
-          company_url: "",
+          company_url: "https://moerichert.gitub.io/portfolio",
           logo_path: "MP",
           duration: "May 2008 – August 2011",
           location: "Huntsville, AL",
@@ -515,11 +519,12 @@ const experience = {
     },
     {
       title: "Volunteering",
+      id: "1",
       experiences: [
         {
           title: "Raptor Rehabilitator",
           company: "Southeastern Raptor Rehabilitation Center",
-          company_url: "",
+          company_url: "https://www.vetmed.auburn.edu/raptor/",
           logo_path: "SERC",
           duration: "Jan 2012 – May 2014",
           location: "Auburn, AL",
@@ -529,13 +534,13 @@ const experience = {
         },
         {
           title: "Game Master",
-          company: "Just a group of friends",
-          company_url: "",
+          company: "Self-Volunteered",
+          company_url: "https://moerichert.gitub.io/portfolio",
           logo_path: "d20",
           duration: "May 2020 – Present",
           location: "Virtual",
           description:
-            "I lead improv storytelling games for groups of my friends online as a personal hobby",
+            "I lead improv storytelling games for groups online",
           color: "#0000ff",
         },
       ],

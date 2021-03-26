@@ -14,6 +14,14 @@ export const blueTheme = {
   headerColor: "#0E6BA877",
   contrastColor: "#ff0000",
   contrastColorS: "#930",
+  pantColor: "#666666",
+  shoe: "#000000",
+  hlight2: "#CCCCCC",
+  robes: "#131114",
+  robes2: "#333333",
+  robespt: "#C5BFB3",
+  staydark: "#2e3434",
+  shade: "#999",
 };
 
 export const brownTheme = {
@@ -31,6 +39,13 @@ export const brownTheme = {
   headerColor: "#E29F9577",
   contrastColor: "#ff0000",
   contrastColorS: "#930",
+  pantColor: "#666666",
+  shoe: "#000000",
+  hlight2: "#CCCCCC",
+  robes: "#131114",
+  robes2: "#333333",
+  robespt: "#C5BFB3",
+  staydark: "#2e3434",
 };
 
 export const purpleTheme = {
@@ -48,6 +63,13 @@ export const purpleTheme = {
   headerColor: "#BE95C477",
   contrastColor: "#24ee5b",
   contrastColorS: "#04932b",
+  pantColor: "#666666",
+  shoe: "#000000",
+  hlight2: "#CCCCCC",
+  robes: "#131114",
+  robes2: "#333333",
+  robespt: "#C5BFB3",
+  staydark: "#2e3434",
 };
 
 export const yelGreenTheme = {
@@ -65,14 +87,21 @@ export const yelGreenTheme = {
   headerColor: "#55a63077",
   contrastColor: "#ff0000",
   contrastColorS: "#930",
+  pantColor: "#666666",
+  shoe: "#000000",
+  hlight2: "#CCCCCC",
+  robes: "#131114",
+  robes2: "#333333",
+  robespt: "#C5BFB3",
+  staydark: "#2e3434",
 };
 
 export const redTheme = {
-  body: "#FFF8E6",
-  text: "#6a040f",
-  highlight: "#ffba08",
+  body: "#f1d5d5",
+  text: "#270400",
+  highlight: "#cc82a5",
   dark: "#03071e",
-  secondaryText: "#964F56",
+  secondaryText: "#6a040f",
   midgrey: "#383D46	",
   imageHighlight: "#dc2f02",
   compImgHighlight: "#E6E6E6",
@@ -82,6 +111,13 @@ export const redTheme = {
   headerColor: "#dc2f0277",
   contrastColor: "#006ced",
   contrastColorS: "#1e5aa7",
+  pantColor: "#666666",
+  shoe: "#000000",
+  hlight2: "#CCCCCC",
+  robes: "#131114",
+  robes2: "#333333",
+  robespt: "#C5BFB3",
+  staydark: "#2e3434",
 };
 
 export const blackTheme = {
@@ -99,6 +135,13 @@ export const blackTheme = {
   headerColor: "#fca31177",
   contrastColor: "#ff0000",
   contrastColorS: "#930",
+  pantColor: "#666666",
+  shoe: "#000000",
+  hlight2: "#CCCCCC",
+  robes: "#131114",
+  robes2: "#333333",
+  robespt: "#C5BFB3",
+  staydark: "#2e3434",
 };
 
 export const pinkTheme = {
@@ -116,6 +159,13 @@ export const pinkTheme = {
   headerColor: "#ef476f77",
   contrastColor: "#ef950b",
   contrastColorS: "#a96b0c",
+  pantColor: "#666666",
+  shoe: "#000000",
+  hlight2: "#CCCCCC",
+  robes: "#131114",
+  robes2: "#333333",
+  robespt: "#C5BFB3",
+  staydark: "#2e3434",
 };
 
 export const violetTheme = {
@@ -133,6 +183,13 @@ export const violetTheme = {
   headerColor: "#9b5de577",
   contrastColor: "#006ced",
   contrastColorS: "#0a9fb7",
+  pantColor: "#666666",
+  shoe: "#000000",
+  hlight2: "#CCCCCC",
+  robes: "#131114",
+  robes2: "#333333",
+  robespt: "#C5BFB3",
+  staydark: "#2e3434",
 };
 
 export const greenTheme = {
@@ -150,6 +207,13 @@ export const greenTheme = {
   headerColor: "#07beb877",
   contrastColor: "#ff9e00",
   contrastColorS: "#982300",
+  pantColor: "#666666",
+  shoe: "#000000",
+  hlight2: "#CCCCCC",
+  robes: "#131114",
+  robes2: "#333333",
+  robespt: "#C5BFB3",
+  staydark: "#2e3434",
 };
 
 export const orangeTheme = {
@@ -167,6 +231,38 @@ export const orangeTheme = {
   headerColor: "#FF6B3577",
   contrastColor: "#006ced",
   contrastColorS: "#0a9fb7",
+  pantColor: "#666666",
+  shoe: "#000000",
+  hlight2: "#CCCCCC",
+  robes: "#131114",
+  robes2: "#333333",
+  robespt: "#C5BFB3",
+  staydark: "#2e3434",
 };
+export const darkTheme = {
+  body: "#120601",
+  text: "#ffe3aa",
+  highlight: "#591e05",
+  dark: "#120601",
+  secondaryText: "#807255",
+  midgrey: "#556d6f",
+  imageHighlight: "#f19457",
+  compImgHighlight: "#002f36",
+  jacketColor: "#5b4140",
+  jHighlight: "#6e555f",
+  jShade2: "#42393a",
+  headerColor: "#00000577",
+  contrastColor: "#00ffff",
+  contrastColorS: "#930",
+  pantColor: "#8C8374",
+  shoe: "#565554",
+  hlight2: "#CCCCCC",
+  robes: "#565554",
+  robes2: "#707070",
+  robespt: "#756850",
+  staydark: "#2e3434",
+
+};
+
 
 export const chosenTheme = blueTheme;

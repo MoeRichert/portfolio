@@ -1,7 +1,7 @@
 {"data":[{"id":"335507649",
           "name":"Watershed Explorer",
           "createdAt":"2021-02-02",
-          "url":"moerichert.github.io/watersheds",
+          "url":"https://moerichert.github.io/watersheds",
           "description":"A web map to explore watersheds and water movements in the Southeastern US",
           "isFork":false,
           "languages":[{"name":"HTML","iconifyClass":"logos-html-5"},
